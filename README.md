@@ -33,11 +33,11 @@ be omitted.  Relationships between classes are drawn using different types of ed
 ## Association
 
 
-**Association** is used to model a general relationship between objects.
+*Association* is used to model a general relationship between objects.
 Neither object is considered a part or member of the other.
 An association is drawn using an edge between classes.  The edge may have
 have an arrow to indicate direction.  The arrow is often left off if the association
-is bi-directions.  
+is bi-directional.  
 
 ![general association](https://curriculum-content.s3.amazonaws.com/6676/java-multipleclasses/general_association.png)
 
@@ -105,6 +105,13 @@ below shows
 
 ![self association](https://curriculum-content.s3.amazonaws.com/6676/java-multipleclasses/self_association.png)
 
+## Implementing an Association
+
+A relationship is usually implemented as an instance variable in one or both classes,
+depending on whether the relationship is uni-directional or bi-directional.
+
+The relationship cardinality determines whether the association is implemented
+as a single value field or a collection such as an array or list.
 
 ## Conclusion
 
@@ -117,7 +124,12 @@ We can model different types of relationships using a UML class diagram.
 
 ![company class diagram](https://curriculum-content.s3.amazonaws.com/6676/java-multipleclasses/company_department_employees.png)
 
+There are many tools available for creating UML diagrams, including
+the free tool [draw.io](https://drawio-app.com/uml-class-diagrams-in-draw-io/)
+used to produce the examples in this lesson.
+
 
 ## Resources
 
-- [UML](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/)ß
+- [UML](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/)   
+- [draw.io](https://drawio-app.com/uml-class-diagrams-in-draw-io/)
